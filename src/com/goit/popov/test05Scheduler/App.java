@@ -1,4 +1,4 @@
-package com.goit.popov.test05;
+package com.goit.popov.test05Scheduler;
 
 /**
  * Created by Андрей on 13.07.2016.

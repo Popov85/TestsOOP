@@ -1,4 +1,4 @@
-package com.goit.popov.test04;
+package com.goit.popov.test04Refactoring;
 
 /**
  * Created by Андрей on 04.07.2016.
@@ -19,6 +19,7 @@ public class Runner {
                 customer.addRental(rental2);
 
                 System.out.println("Statement is: \n"+customer.statement());
+                System.out.println("Statement is: \n"+customer.htmlStatement());
 
         }
 }

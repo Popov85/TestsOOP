@@ -1,4 +1,4 @@
-package com.goit.popov.test04;
+package com.goit.popov.test04Refactoring;
 
 /**
  * Created by Андрей on 04.07.2016.
@@ -18,5 +18,14 @@ public class Rental {
 
         public int getDaysRented() {
                 return _daysRented;
+        }
+
+        public double getCharge() {
+                return _movie.getCharge(_daysRented);
+        }
+
+        int getFrequentRenterPoints() {
+                // add bonus for a two day new release rental
+                return _movie.getFrequentRenterPoints(_daysRented);
         }
 }
