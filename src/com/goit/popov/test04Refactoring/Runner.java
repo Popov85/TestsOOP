@@ -18,8 +18,8 @@ public class Runner {
                 customer.addRental(rental1);
                 customer.addRental(rental2);
 
-                System.out.println("Statement is: \n"+customer.statement());
-                System.out.println("Statement is: \n"+customer.htmlStatement());
+                System.out.println("Statement is: \n"+new TextStatement().value(customer)+"\n");
+                System.out.println("HTML statement is: \n"+new HtmlStatement().value(customer));
 
         }
 }
